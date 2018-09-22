@@ -1,0 +1,9 @@
+*
+
+# Track these
+!.gitignore
+!.bash_profile
+!.vimrc
+!.zshrc
+!/.zsh-custom/
+!/.zsh-custom/garybunofsky.zsh-theme
