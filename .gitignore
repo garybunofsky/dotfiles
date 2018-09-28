@@ -5,5 +5,5 @@
 !.bash_profile
 !.vimrc
 !.zshrc
-!/.zsh-custom/
-!/.zsh-custom/garybunofsky.zsh-theme
+!/.oh-my-zsh/
+!/.oh-my-zsh/custom/themes/garybunofsky.zsh-theme

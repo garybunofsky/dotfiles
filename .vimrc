@@ -6,11 +6,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'posva/vim-vue'
   Plug 'junegunn/fzf'
   Plug 'junegunn/fzf.vim'
-  Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 " Maps
-map ; :Files<CR>
+map ; :Files<CR>i
 
 set nocompatible
 set ruler
