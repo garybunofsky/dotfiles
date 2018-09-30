@@ -8,7 +8,7 @@ antigen bundle git
 antigen bundle heroku
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle ~/.oh-my-zsh/custom/themes garybunofsky.zsh-theme --no-local-clone
+antigen bundle ~/ garybunofsky.zsh-theme --no-local-clone
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting

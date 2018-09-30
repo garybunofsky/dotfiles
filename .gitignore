@@ -5,5 +5,5 @@
 !.bash_profile
 !.vimrc
 !.zshrc
-!/.oh-my-zsh/
-!/.oh-my-zsh/custom/themes/garybunofsky.zsh-theme
+!garybunofsky.zsh-theme
+!garybunofsky.zsh-theme.antigen-compat
