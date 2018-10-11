@@ -12,6 +12,8 @@ alias htdocs="cd /Applications/MAMP/htdocs"
 alias o="open ."
 alias a="atom ."
 
+# vim shortcuts
+alias vi="vim"
 
 function prompt {
   local BLACK="\[\033[0;30m\]"
