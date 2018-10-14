@@ -9,6 +9,18 @@ export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
+# functions
+mcd () {
+  mkdir -p $1
+  cd $1
+}
+
+search () {
+  echo "\033[0;33mSearching...\033[0;37m"
+  grep -r --color "$1" .
+  echo "🔍  \033[0;32mSearch for $1 completed.\033[0;37m"
+}
+
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
