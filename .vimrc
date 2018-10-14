@@ -39,5 +39,8 @@ set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search
 
+" Backspace
+set backspace=indent,eol,start
+
 " Color scheme
 :colorscheme 1989
