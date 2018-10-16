@@ -1,0 +1,11 @@
+# functions
+mcd () {
+  mkdir -p $1
+  cd $1
+}
+
+search () {
+  echo "\033[0;33mSearching...\033[0;37m"
+  grep -r --color "$1" .
+  echo "🔍  \033[0;32mSearch for $1 completed.\033[0;37m"
+}
