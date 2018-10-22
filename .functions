@@ -9,3 +9,11 @@ search () {
   grep -r --color "$1" .
   echo "🔍  \033[0;32mSearch for $1 completed.\033[0;37m"
 }
+
+cpu () {
+  ps -A -o %cpu | awk '{s+=$1} END {print "💻   " s "%"}'
+}
+
+wifi () {
+  curl -v https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+}
