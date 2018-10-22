@@ -10,10 +10,13 @@ alias graph="git log --all --decorate --oneline --graph"
 
 # bash shortcuts
 alias projects="cd ~/documents/projects/"
+alias insights="cd ~/documents/projects/insights/"
+alias sosa="cd ~/documents/projects/sosa/"
+alias utees_operations="cd ~/documents/projects//utees_operations"
 alias htdocs="cd /Applications/MAMP/htdocs"
 alias o="open ."
 alias a="atom ."
-alias ls="ls -a"
+alias ..="cd .."
 
 # vim shortcuts
 alias vi="vim"
