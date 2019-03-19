@@ -7,6 +7,8 @@ alias checkout="git checkout"
 alias diff="git diff"
 alias oneline="git log --oneline"
 alias graph="git log --all --decorate --oneline --graph"
+alias graph-mini="git log --all --decorate --graph --oneline --pretty=format:"%C(yellow)%h%Creset%C(blue)%d%Creset""
+
 
 # bash shortcuts
 alias projects="cd ~/documents/projects/"

@@ -10,7 +10,7 @@ mcd () {
 
 search () {
   echo "\033[0;33mSearching...\033[0;37m"
-  grep -r --color --exclude-dir=node_modules "$1" .
+  grep -r --color --exclude-dir=node_modules,public "$1" .
   echo "🔍  \033[0;32mSearch for $1 completed.\033[0;37m"
 }
 
