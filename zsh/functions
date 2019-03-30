@@ -8,12 +8,6 @@ mcd () {
   cd $1
 }
 
-search () {
-  echo "\033[0;33mSearching...\033[0;37m"
-  grep -r --color --exclude-dir=node_modules,public,"$2" "$1" .
-  echo "🔍  \033[0;32mSearch for $1 completed.\033[0;37m"
-}
-
 wifi () {
   curl -v https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 }

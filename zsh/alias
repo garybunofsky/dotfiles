@@ -1,4 +1,6 @@
-# git shortcuts
+# alias
+
+# git
 alias status="git status"
 alias push="git push"
 alias pull="git pull"
@@ -9,8 +11,7 @@ alias oneline="git log --oneline"
 alias graph="git log --all --decorate --oneline --graph"
 alias graph-mini="git log --all --decorate --graph --oneline --pretty=format:"%C(yellow)%h%Creset%C(blue)%d%Creset""
 
-
-# bash shortcuts
+# bash
 alias projects="cd ~/documents/projects/"
 alias insights="cd ~/documents/projects/insights/"
 alias sosa="cd ~/documents/projects/sosa/"
@@ -21,5 +22,5 @@ alias o="open ."
 alias a="atom ."
 alias ..="cd .."
 
-# vim shortcuts
+# vim
 alias vi="vim"
