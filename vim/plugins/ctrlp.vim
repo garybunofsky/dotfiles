@@ -8,5 +8,3 @@ let g:ctrlp_show_hidden = 1
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
-" map semicolon for fuzzy find
-map ; :CtrlP<CR>

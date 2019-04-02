@@ -11,3 +11,9 @@ command! Wq :wq
 
 " No whitespace after return
 :inoremap <Return> <Space><BS><Return>
+
+" ctrl+i for indent
+map <C-i> gg=G<CR>
+
+" ctrl+f for finding
+map <C-f> :CtrlP<CR>
