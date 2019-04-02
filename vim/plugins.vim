@@ -13,7 +13,6 @@ call vundle#begin()
   Plugin 'ervandew/supertab'
   Plugin 'tpope/vim-fugitive'
   Plugin 'itchyny/lightline.vim'
-  Plugin 'chrisbra/Colorizer'
 call vundle#end()
 
 filetype plugin indent on
