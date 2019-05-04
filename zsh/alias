@@ -14,10 +14,12 @@ alias graph-mini="git log --all --decorate --graph --oneline --pretty=format:"%C
 # bash
 alias projects="cd ~/documents/projects/"
 alias insights="cd ~/documents/projects/insights/"
+alias dagwood="cd ~/documents/projects/dagwood/"
 alias sosa="cd ~/documents/projects/sosa/"
 alias ops="cd ~/documents/projects/utees-operations"
 alias htdocs="cd /Applications/MAMP/htdocs"
 alias championone="cd /Applications/MAMP/htdocs/champion-one/wp-content/themes/championone"
+
 alias o="open ."
 alias a="atom ."
 alias ..="cd .."
