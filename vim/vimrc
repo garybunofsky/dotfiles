@@ -7,6 +7,7 @@ source ~/dotfiles/vim/plugins/ale.vim
 source ~/dotfiles/vim/plugins/ctrlp.vim
 source ~/dotfiles/vim/plugins/lightlinecustom.vim
 source ~/dotfiles/vim/plugins/lightline.vim
+source ~/dotfiles/vim/plugins/indentguides.vim
 
 " vim
 source ~/dotfiles/vim/formatting.vim
