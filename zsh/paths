@@ -4,6 +4,12 @@ export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 export PATH="~/.rbenv/bin:$PATH"
+export PATH="~/.bin:$PATH"
 
 eval "$(rbenv init - zsh)"
 eval "$(direnv hook zsh)"
+
+# do mkdir .git/safe in the root of trustworthy repos. this
+# let's us just do 'rspec' instead of 'bundle exec rspec'
+# ref: https://thoughtbot.com/blog/git-safe
+export PATH=".git/safe/../../bin:$PATH"
