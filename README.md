@@ -1,8 +1,6 @@
 # dotfiles
 
-Just my dotfiles.
-
-Here's a little screenshot.
+### Just my dotfiles
 
 ![Alt text](/screenshot.png?raw=true "A nice screenshot")
 
