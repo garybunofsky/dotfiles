@@ -1,3 +1,3 @@
 " theme
-:colorscheme 1989
+:colorscheme solarized
 syntax on

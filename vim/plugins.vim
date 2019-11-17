@@ -14,7 +14,6 @@ call vundle#begin()
   Plugin 'tpope/vim-fugitive'
   Plugin 'itchyny/lightline.vim'
   Plugin 'vim-scripts/xterm16.vim'
-  Plugin 'nathanaelkane/vim-indent-guides'
 call vundle#end()
 
 filetype plugin indent on
