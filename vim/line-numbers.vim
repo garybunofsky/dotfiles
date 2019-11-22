@@ -1,4 +1,5 @@
-" line Numbers
+" line numbers
+
 set number
 
 " highlight current line
