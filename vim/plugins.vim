@@ -14,6 +14,7 @@ call vundle#begin()
   Plugin 'tpope/vim-fugitive'
   Plugin 'itchyny/lightline.vim'
   Plugin 'vim-scripts/xterm16.vim'
+  Plugin 'shinchu/lightline-seoul256.vim'
 call vundle#end()
 
 filetype plugin indent on

@@ -1,3 +1,3 @@
 " theme
-:colorscheme solarized
+:colorscheme seoul256-light
 syntax on
