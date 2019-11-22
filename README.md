@@ -9,7 +9,7 @@ some setup instructions. Have a good day.
 ### How do I set this up?
 1. To get italics run `tic -o ~/.terminfo vim/xterm-256color.terminfo.txt`
 
-#### Tree
+#### What's included?
 ```
 ├── README.md
 ├── misc
