@@ -5,7 +5,6 @@
 source ~/dotfiles/vim/plugins.vim
 source ~/dotfiles/vim/plugins/ale.vim
 source ~/dotfiles/vim/plugins/ctrlp.vim
-source ~/dotfiles/vim/plugins/lightlinecustom.vim
 source ~/dotfiles/vim/plugins/lightline.vim
 source ~/dotfiles/vim/plugins/indentguides.vim
 
@@ -13,6 +12,7 @@ source ~/dotfiles/vim/plugins/indentguides.vim
 source ~/dotfiles/vim/formatting.vim
 source ~/dotfiles/vim/input.vim
 source ~/dotfiles/vim/line-numbers.vim
+source ~/dotfiles/vim/netrw.vim
 source ~/dotfiles/vim/search.vim
 source ~/dotfiles/vim/theme.vim
 source ~/dotfiles/vim/whitespace.vim
