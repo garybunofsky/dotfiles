@@ -9,5 +9,5 @@ set expandtab
 set noshiftround
 
 " highlight tabs and trailing spaces
-set listchars=tab:₞₞,trail:₞
+set listchars=tab:₞:✖,trail:✖
 set list
