@@ -20,9 +20,9 @@ alias sosa="cd ~/documents/projects/sosa/"
 alias ops="cd ~/documents/projects/utees-operations"
 alias htdocs="cd /Applications/MAMP/htdocs"
 alias championone="cd /Applications/MAMP/htdocs/champion-one/wp-content/themes/championone"
-
+alias clear_swap="find . -type f -name \"*.sw[klmnop]\" -delete"
 alias o="open ."
-alias a="atom ."
+alias t="bundle exec rspec"
 alias ..="cd .."
 
 # vim
