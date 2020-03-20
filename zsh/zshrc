@@ -7,3 +7,5 @@ source ~/dotfiles/zsh/antigen
 source ~/dotfiles/zsh/paths
 
 export EDITOR=vim
+
+
