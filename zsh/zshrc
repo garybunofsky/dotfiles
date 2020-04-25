@@ -9,3 +9,5 @@ source ~/dotfiles/zsh/alias
 source ~/dotfiles/zsh/python
 
 export EDITOR=vim
+
+
