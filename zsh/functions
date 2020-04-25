@@ -11,3 +11,48 @@ mcd () {
 wifi () {
   curl -v https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 }
+
+get-opsworks-instance() {
+  if [ -z "$1" ]; then
+    echo "No environment provided"
+    return 1
+  fi
+
+  case "$1" in
+  production)
+    APP_STACK="UTees Production"
+    ;;
+  staging-4)
+    APP_STACK="UTees Staging - 4"
+    ;;
+  staging-3)
+    APP_STACK="UTees Staging - 3"
+    ;;
+  staging-2)
+    APP_STACK="UTees Staging - 2"
+    ;;
+  staging)
+    APP_STACK="UTees Staging"
+    ;;
+  *)
+    echo "Incorrect environment provided"
+    return 1
+  esac
+
+  case "$2" in
+    load-balancer|web)
+      APP_LAYER="Load Balancer"
+      ;;
+    *)
+      APP_LAYER="utility"
+      ;;
+  esac
+
+  if [ -z $3 ]; then
+    APP_RESERVATION="0"
+  else
+    APP_RESERVATION="$3"
+  fi
+
+  AWS_PROFILE=utees aws ec2 describe-instances --filters "Name=tag-value,Values=$APP_LAYER" "Name=tag-value,Values=$APP_STACK" "Name=instance-state-code,Values=16" | jq -r ".Reservations[$APP_RESERVATION].Instances[0].PublicIpAddress"
+}
