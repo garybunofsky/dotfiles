@@ -3,7 +3,8 @@ let g:ale_fixers = {
 \ 'css': ['prettier'],
 \ 'scss': ['prettier'],
 \ 'javascript': ['prettier'],
-\ 'json': ['prettier']
+\ 'json': ['prettier'],
+\ 'vue': ['prettier']
 \ }
 
 let g:ale_linters = {

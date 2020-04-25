@@ -1,10 +1,9 @@
 # paths
-export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
 export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
-export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 export PATH="~/.rbenv/bin:$PATH"
 export PATH="~/.bin:$PATH"
+# export PATH="/usr/local/opt/libpq/bin:$PATH" # Might not need this
 
 eval "$(rbenv init - zsh)"
 eval "$(direnv hook zsh)"
@@ -13,3 +12,12 @@ eval "$(direnv hook zsh)"
 # let's us just do 'rspec' instead of 'bundle exec rspec'
 # ref: https://thoughtbot.com/blog/git-safe
 export PATH=".git/safe/../../bin:$PATH"
+
+# If you need to have python@3.8 first in your PATH run:
+#   echo 'export PATH="/usr/local/opt/python@3.8/bin:$PATH"' >> ~/.zshrc
+# 
+# For compilers to find python@3.8 you may need to set:
+#   export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
+# 
+# For pkg-config to find python@3.8 you may need to set:
+#   export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"

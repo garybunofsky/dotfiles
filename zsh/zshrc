@@ -1,9 +1,11 @@
-source ~/.oh-my-zsh/custom/plugins/antigen/antigen.zsh
-source ~/.oh-my-zsh/custom/plugins/zsh-nvm/zsh-nvm.plugin.zsh
+# source ~/.oh-my-zsh/custom/plugins/antigen/antigen.zsh
+# source ~/.oh-my-zsh/custom/plugins/zsh-nvm/zsh-nvm.plugin.zsh
 
-source ~/dotfiles/zsh/alias
 source ~/dotfiles/zsh/functions
+source ~/dotfiles/zsh/antigen.zsh
 source ~/dotfiles/zsh/antigen
 source ~/dotfiles/zsh/paths
+source ~/dotfiles/zsh/alias
+source ~/dotfiles/zsh/python
 
 export EDITOR=vim
