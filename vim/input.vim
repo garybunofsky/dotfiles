@@ -17,3 +17,4 @@ map <C-i> gg=G<CR>
 
 " ctrl+f for finding
 map <C-f> :CtrlP<CR>
+map <C-N> :NERDTreeToggle<CR>

@@ -15,6 +15,8 @@ call vundle#begin()
   Plugin 'itchyny/lightline.vim'
   Plugin 'vim-scripts/xterm16.vim'
   Plugin 'shinchu/lightline-seoul256.vim'
+  Plugin 'scrooloose/nerdtree'
+  Plugin 'Xuyuanp/nerdtree-git-plugin'
 call vundle#end()
 
 filetype plugin indent on
