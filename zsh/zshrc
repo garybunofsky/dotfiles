@@ -7,7 +7,6 @@ source ~/dotfiles/zsh/antigen
 source ~/dotfiles/zsh/paths
 source ~/dotfiles/zsh/alias
 source ~/dotfiles/zsh/python
+source ~/dotfiles/zsh/nvm-autoload
 
 export EDITOR=vim
-
-
